@@ -1,0 +1,75 @@
+/* Fonts */
+/* Add more fonts according to your needs */
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+/* Colors */
+/* Add more color variable according to your needs */
+
+:root {
+  --primary: #1a2531;
+  --dark: #151a33;
+  --secondary: #2b55cc;
+  --info: #4d79f6;
+  --ternary: #848db3;
+  --pure: #eff2f9;
+  --fade: #7083b9;
+  --mild: #8997bd;
+  --footer: #212a4a;
+  --github: #6e5494;
+  --success: #1ecab8;
+  --danger: #f1646c;
+  --dark_blue: #28355f;
+  --black: #060b1b;
+}
+
+/* basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: var(--dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: var(--primary);
+  padding: 1.2rem 0rem;
+}
+
+nav .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .inner .logo {
+  text-transform: uppercase;
+  color: var(--pure);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+nav .inner .logo i {
+  color: var(--info);
+}
