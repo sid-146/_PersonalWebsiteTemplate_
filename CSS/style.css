@@ -82,3 +82,24 @@ nav .inner button {
   font-size: 15px;
   border-radius: 3px;
 }
+
+section.profile {
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+
+section.profile .leftSide {
+  display: flex;
+  flex: 2;
+  align-items: center;
+}
+
+section.profile .rightSide {
+  flex: 1;
+}
+
+section.profile .leftSide h2 {
+  color: var(--fade);
+}
