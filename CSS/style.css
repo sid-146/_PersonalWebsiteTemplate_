@@ -102,4 +102,50 @@ section.profile .rightSide {
 
 section.profile .leftSide h2 {
   color: var(--fade);
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+section.profile .leftSide p {
+  color: var(--mild);
+  font-size: 14px;
+}
+
+section.profile .leftSide img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+section.profile .leftSide .UserPicture {
+  margin-right: 2rem;
+  position: relative;
+}
+
+section.profile .leftSide .UserPicture span {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  background: var(--info);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  color: var(--pure);
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px 0px rgba(31, 42, 54, 0.05);
+  cursor: pointer;
+}
+
+section.profile .rightSide ul.contact {
+  /* color: var(--fade); */
+  list-style-type: none;
+  margin-bottom: 1.3rem;
+}
+
+section.profile .rightSide ul.contact li {
+  color: var(--ternary);
 }
