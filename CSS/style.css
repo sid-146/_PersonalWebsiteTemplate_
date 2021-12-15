@@ -154,10 +154,20 @@ section.profile .rightSide ul.contact li {
 
 section.profile .rightSide ul.contact li i {
   font-size: 19px;
-  margin-right: 1rem;
+  margin-right: 0.7rem;
 }
 
 section.profile .rightSide ul.socials {
   list-style-type: none;
-  margin-bottom: 1.3rem;
+  /* margin-bottom: 1.3rem; */
+  display: flex;
+  align-items: center;
+}
+
+section.profile .rightSide ul.socials li a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--pure);
 }
