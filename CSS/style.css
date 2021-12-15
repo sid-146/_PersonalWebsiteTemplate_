@@ -148,4 +148,16 @@ section.profile .rightSide ul.contact {
 
 section.profile .rightSide ul.contact li {
   color: var(--ternary);
+  margin-bottom: 0.7rem;
+  font-size: 14px;
+}
+
+section.profile .rightSide ul.contact li i {
+  font-size: 19px;
+  margin-right: 1rem;
+}
+
+section.profile .rightSide ul.socials {
+  list-style-type: none;
+  margin-bottom: 1.3rem;
 }
